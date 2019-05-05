@@ -1,1 +1,14 @@
+Initially execute the Preprocess_data.py file to preproces and clean all the datasets in the data sets folder
+Execute Train_Classifiers.py to train 4 classifiers used. 
+  1. LinearSVC
+  2. Multinomial Naive Bayes
+  3. Bernoulli Naive Bayes
+  4. Gaussian Niave Bayes
+The classifiers and the preprocessed datasets will be stored as pickles after executing above files
+
+Next execute the app.py to load all the classifiers
+
+Then execute MainPage.py, it is the main module which is responsible to create the Cyberbullying Dashboard.
+
+
 
